@@ -214,11 +214,11 @@ int ConnectionOperation::ProgressCallback(void *clientp,
     ConnectionOperation* oper = static_cast<ConnectionOperation*>(clientp);
     if (oper->send_progress_callback_ && ulnow) {
         oper->send_progress_callback_(ulnow, ultotal, ultotal);
-        TLOGD("ulnow:%f, ultotal:%f", ulnow, ultotal);
+        //TLOGD("ulnow:%f, ultotal:%f", ulnow, ultotal);
     }
     if (oper->download_progress_callback_ && dlnow) {
         oper->download_progress_callback_(dlnow, dltotal, dltotal);
-        TLOGD("dlnow:%f, dltotal:%f", dlnow, dltotal);
+        //TLOGD("dlnow:%f, dltotal:%f", dlnow, dltotal);
     }
     return oper->cancel_;
 }

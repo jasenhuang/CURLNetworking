@@ -7,18 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		552AAA6D1B70D4F2002B02EA /* libnetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 552AAA611B70D4F2002B02EA /* libnetwork.a */; };
-		552AAA861B70D542002B02EA /* tconnection_operation_queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 552AAA7C1B70D542002B02EA /* tconnection_operation_queue.cpp */; };
-		552AAA871B70D542002B02EA /* tconnection_operation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 552AAA7E1B70D542002B02EA /* tconnection_operation.cpp */; };
-		552AAA881B70D542002B02EA /* tconnection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 552AAA801B70D542002B02EA /* tconnection.cpp */; };
-		552AAA891B70D542002B02EA /* trequest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 552AAA821B70D542002B02EA /* trequest.cpp */; };
-		552AAA8A1B70D542002B02EA /* tresponse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 552AAA841B70D542002B02EA /* tresponse.cpp */; };
-		552AAA951B70D5A6002B02EA /* networktest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 552AAA941B70D5A6002B02EA /* networktest.mm */; };
-		552AAA981B70D75A002B02EA /* libcurl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 552AAA961B70D75A002B02EA /* libcurl.a */; };
-		552AAA991B70D75A002B02EA /* libdispatch-lite.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 552AAA971B70D75A002B02EA /* libdispatch-lite.a */; };
-		552AAA9B1B70D76A002B02EA /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 552AAA9A1B70D76A002B02EA /* Security.framework */; };
-		552AAA9D1B70D770002B02EA /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 552AAA9C1B70D770002B02EA /* libz.dylib */; };
-		552AAAA01B70D807002B02EA /* libevent.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 552AAA9F1B70D807002B02EA /* libevent.a */; };
+		552AAA6D1B70D4F2002B02EA /* libcurl-networking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 552AAA611B70D4F2002B02EA /* libcurl-networking.a */; };
+		552AAB731B71ED71002B02EA /* tconnection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 552AAB651B71ED71002B02EA /* tconnection.cpp */; };
+		552AAB741B71ED71002B02EA /* tconnection_operation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 552AAB671B71ED71002B02EA /* tconnection_operation.cpp */; };
+		552AAB751B71ED71002B02EA /* tconnection_operation_queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 552AAB6A1B71ED71002B02EA /* tconnection_operation_queue.cpp */; };
+		552AAB761B71ED71002B02EA /* trequest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 552AAB6C1B71ED71002B02EA /* trequest.cpp */; };
+		552AAB771B71ED71002B02EA /* tresponse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 552AAB6E1B71ED71002B02EA /* tresponse.cpp */; };
+		552AAB7B1B71EDB8002B02EA /* libcurl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 552AAB791B71EDB8002B02EA /* libcurl.a */; };
+		552AAB7C1B71EDB8002B02EA /* libdispatch-lite.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 552AAB7A1B71EDB8002B02EA /* libdispatch-lite.a */; };
+		552AAB7E1B71EDC2002B02EA /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 552AAB7D1B71EDC2002B02EA /* libz.dylib */; };
+		552AAB801B71EDD0002B02EA /* libevent.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 552AAB7F1B71EDD0002B02EA /* libevent.a */; };
+		552AAB831B71EEDC002B02EA /* networktest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 552AAB821B71EEDC002B02EA /* networktest.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,26 +43,25 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		552AAA611B70D4F2002B02EA /* libnetwork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libnetwork.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		552AAA6C1B70D4F2002B02EA /* networkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = networkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		552AAA721B70D4F2002B02EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		552AAA7B1B70D542002B02EA /* tconnection_operation_delegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tconnection_operation_delegate.h; sourceTree = "<group>"; };
-		552AAA7C1B70D542002B02EA /* tconnection_operation_queue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tconnection_operation_queue.cpp; sourceTree = "<group>"; };
-		552AAA7D1B70D542002B02EA /* tconnection_operation_queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tconnection_operation_queue.h; sourceTree = "<group>"; };
-		552AAA7E1B70D542002B02EA /* tconnection_operation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tconnection_operation.cpp; sourceTree = "<group>"; };
-		552AAA7F1B70D542002B02EA /* tconnection_operation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tconnection_operation.h; sourceTree = "<group>"; };
-		552AAA801B70D542002B02EA /* tconnection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tconnection.cpp; sourceTree = "<group>"; };
-		552AAA811B70D542002B02EA /* tconnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tconnection.h; sourceTree = "<group>"; };
-		552AAA821B70D542002B02EA /* trequest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = trequest.cpp; sourceTree = "<group>"; };
-		552AAA831B70D542002B02EA /* trequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = trequest.h; sourceTree = "<group>"; };
-		552AAA841B70D542002B02EA /* tresponse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tresponse.cpp; sourceTree = "<group>"; };
-		552AAA851B70D542002B02EA /* tresponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tresponse.h; sourceTree = "<group>"; };
-		552AAA941B70D5A6002B02EA /* networktest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = networktest.mm; sourceTree = "<group>"; };
-		552AAA961B70D75A002B02EA /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcurl.a; path = "../../Curl/build/Debug-iphoneos/libcurl.a"; sourceTree = "<group>"; };
-		552AAA971B70D75A002B02EA /* libdispatch-lite.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libdispatch-lite.a"; path = "../../dispatch-lite/build/Debug-iphoneos/libdispatch-lite.a"; sourceTree = "<group>"; };
-		552AAA9A1B70D76A002B02EA /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		552AAA9C1B70D770002B02EA /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
-		552AAA9F1B70D807002B02EA /* libevent.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libevent.a; path = ../../Libevent/lib/libevent.a; sourceTree = "<group>"; };
+		552AAA611B70D4F2002B02EA /* libcurl-networking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libcurl-networking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		552AAA6C1B70D4F2002B02EA /* curl-networkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "curl-networkingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		552AAB651B71ED71002B02EA /* tconnection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tconnection.cpp; sourceTree = "<group>"; };
+		552AAB661B71ED71002B02EA /* tconnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tconnection.h; sourceTree = "<group>"; };
+		552AAB671B71ED71002B02EA /* tconnection_operation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tconnection_operation.cpp; sourceTree = "<group>"; };
+		552AAB681B71ED71002B02EA /* tconnection_operation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tconnection_operation.h; sourceTree = "<group>"; };
+		552AAB691B71ED71002B02EA /* tconnection_operation_delegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tconnection_operation_delegate.h; sourceTree = "<group>"; };
+		552AAB6A1B71ED71002B02EA /* tconnection_operation_queue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tconnection_operation_queue.cpp; sourceTree = "<group>"; };
+		552AAB6B1B71ED71002B02EA /* tconnection_operation_queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tconnection_operation_queue.h; sourceTree = "<group>"; };
+		552AAB6C1B71ED71002B02EA /* trequest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = trequest.cpp; sourceTree = "<group>"; };
+		552AAB6D1B71ED71002B02EA /* trequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = trequest.h; sourceTree = "<group>"; };
+		552AAB6E1B71ED71002B02EA /* tresponse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tresponse.cpp; sourceTree = "<group>"; };
+		552AAB6F1B71ED71002B02EA /* tresponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tresponse.h; sourceTree = "<group>"; };
+		552AAB711B71ED71002B02EA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		552AAB791B71EDB8002B02EA /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcurl.a; path = "../../CURL/build/Debug-iphoneos/libcurl.a"; sourceTree = "<group>"; };
+		552AAB7A1B71EDB8002B02EA /* libdispatch-lite.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libdispatch-lite.a"; path = "../../Dispatch-Lite/build/Debug-iphoneos/libdispatch-lite.a"; sourceTree = "<group>"; };
+		552AAB7D1B71EDC2002B02EA /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		552AAB7F1B71EDD0002B02EA /* libevent.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libevent.a; path = ../../Libevent/lib/libevent.a; sourceTree = "<group>"; };
+		552AAB821B71EEDC002B02EA /* networktest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = networktest.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,12 +76,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				552AAAA01B70D807002B02EA /* libevent.a in Frameworks */,
-				552AAA9D1B70D770002B02EA /* libz.dylib in Frameworks */,
-				552AAA9B1B70D76A002B02EA /* Security.framework in Frameworks */,
-				552AAA981B70D75A002B02EA /* libcurl.a in Frameworks */,
-				552AAA991B70D75A002B02EA /* libdispatch-lite.a in Frameworks */,
-				552AAA6D1B70D4F2002B02EA /* libnetwork.a in Frameworks */,
+				552AAB801B71EDD0002B02EA /* libevent.a in Frameworks */,
+				552AAB7E1B71EDC2002B02EA /* libz.dylib in Frameworks */,
+				552AAB7B1B71EDB8002B02EA /* libcurl.a in Frameworks */,
+				552AAB7C1B71EDB8002B02EA /* libdispatch-lite.a in Frameworks */,
+				552AAA6D1B70D4F2002B02EA /* libcurl-networking.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,8 +90,8 @@
 		552AAA581B70D4F2002B02EA = {
 			isa = PBXGroup;
 			children = (
-				552AAA631B70D4F2002B02EA /* network */,
-				552AAA701B70D4F2002B02EA /* networkTests */,
+				552AAB641B71ED71002B02EA /* curl-networking */,
+				552AAB701B71ED71002B02EA /* curl-networkingTests */,
 				552AAA621B70D4F2002B02EA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -102,66 +99,57 @@
 		552AAA621B70D4F2002B02EA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				552AAA611B70D4F2002B02EA /* libnetwork.a */,
-				552AAA6C1B70D4F2002B02EA /* networkTests.xctest */,
+				552AAA611B70D4F2002B02EA /* libcurl-networking.a */,
+				552AAA6C1B70D4F2002B02EA /* curl-networkingTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		552AAA631B70D4F2002B02EA /* network */ = {
+		552AAB641B71ED71002B02EA /* curl-networking */ = {
 			isa = PBXGroup;
 			children = (
-				552AAA7B1B70D542002B02EA /* tconnection_operation_delegate.h */,
-				552AAA7C1B70D542002B02EA /* tconnection_operation_queue.cpp */,
-				552AAA7D1B70D542002B02EA /* tconnection_operation_queue.h */,
-				552AAA7E1B70D542002B02EA /* tconnection_operation.cpp */,
-				552AAA7F1B70D542002B02EA /* tconnection_operation.h */,
-				552AAA801B70D542002B02EA /* tconnection.cpp */,
-				552AAA811B70D542002B02EA /* tconnection.h */,
-				552AAA821B70D542002B02EA /* trequest.cpp */,
-				552AAA831B70D542002B02EA /* trequest.h */,
-				552AAA841B70D542002B02EA /* tresponse.cpp */,
-				552AAA851B70D542002B02EA /* tresponse.h */,
+				552AAB651B71ED71002B02EA /* tconnection.cpp */,
+				552AAB661B71ED71002B02EA /* tconnection.h */,
+				552AAB671B71ED71002B02EA /* tconnection_operation.cpp */,
+				552AAB681B71ED71002B02EA /* tconnection_operation.h */,
+				552AAB691B71ED71002B02EA /* tconnection_operation_delegate.h */,
+				552AAB6A1B71ED71002B02EA /* tconnection_operation_queue.cpp */,
+				552AAB6B1B71ED71002B02EA /* tconnection_operation_queue.h */,
+				552AAB6C1B71ED71002B02EA /* trequest.cpp */,
+				552AAB6D1B71ED71002B02EA /* trequest.h */,
+				552AAB6E1B71ED71002B02EA /* tresponse.cpp */,
+				552AAB6F1B71ED71002B02EA /* tresponse.h */,
 			);
-			path = network;
+			path = "curl-networking";
 			sourceTree = "<group>";
 		};
-		552AAA701B70D4F2002B02EA /* networkTests */ = {
+		552AAB701B71ED71002B02EA /* curl-networkingTests */ = {
 			isa = PBXGroup;
 			children = (
-				552AAA941B70D5A6002B02EA /* networktest.mm */,
-				552AAA9E1B70D782002B02EA /* Frameworks */,
-				552AAA711B70D4F2002B02EA /* Supporting Files */,
+				552AAB821B71EEDC002B02EA /* networktest.mm */,
+				552AAB7F1B71EDD0002B02EA /* libevent.a */,
+				552AAB7D1B71EDC2002B02EA /* libz.dylib */,
+				552AAB791B71EDB8002B02EA /* libcurl.a */,
+				552AAB7A1B71EDB8002B02EA /* libdispatch-lite.a */,
+				552AAB811B71EE62002B02EA /* Supporting Files */,
 			);
-			path = networkTests;
+			path = "curl-networkingTests";
 			sourceTree = "<group>";
 		};
-		552AAA711B70D4F2002B02EA /* Supporting Files */ = {
+		552AAB811B71EE62002B02EA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				552AAA721B70D4F2002B02EA /* Info.plist */,
+				552AAB711B71ED71002B02EA /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		552AAA9E1B70D782002B02EA /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				552AAA9F1B70D807002B02EA /* libevent.a */,
-				552AAA9C1B70D770002B02EA /* libz.dylib */,
-				552AAA9A1B70D76A002B02EA /* Security.framework */,
-				552AAA961B70D75A002B02EA /* libcurl.a */,
-				552AAA971B70D75A002B02EA /* libdispatch-lite.a */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		552AAA601B70D4F2002B02EA /* network */ = {
+		552AAA601B70D4F2002B02EA /* curl-networking */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 552AAA751B70D4F2002B02EA /* Build configuration list for PBXNativeTarget "network" */;
+			buildConfigurationList = 552AAA751B70D4F2002B02EA /* Build configuration list for PBXNativeTarget "curl-networking" */;
 			buildPhases = (
 				552AAA5D1B70D4F2002B02EA /* Sources */,
 				552AAA5E1B70D4F2002B02EA /* Frameworks */,
@@ -171,14 +159,14 @@
 			);
 			dependencies = (
 			);
-			name = network;
+			name = "curl-networking";
 			productName = network;
-			productReference = 552AAA611B70D4F2002B02EA /* libnetwork.a */;
+			productReference = 552AAA611B70D4F2002B02EA /* libcurl-networking.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		552AAA6B1B70D4F2002B02EA /* networkTests */ = {
+		552AAA6B1B70D4F2002B02EA /* curl-networkingTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 552AAA781B70D4F2002B02EA /* Build configuration list for PBXNativeTarget "networkTests" */;
+			buildConfigurationList = 552AAA781B70D4F2002B02EA /* Build configuration list for PBXNativeTarget "curl-networkingTests" */;
 			buildPhases = (
 				552AAA681B70D4F2002B02EA /* Sources */,
 				552AAA691B70D4F2002B02EA /* Frameworks */,
@@ -189,9 +177,9 @@
 			dependencies = (
 				552AAA6F1B70D4F2002B02EA /* PBXTargetDependency */,
 			);
-			name = networkTests;
+			name = "curl-networkingTests";
 			productName = networkTests;
-			productReference = 552AAA6C1B70D4F2002B02EA /* networkTests.xctest */;
+			productReference = 552AAA6C1B70D4F2002B02EA /* curl-networkingTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -211,7 +199,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 552AAA5C1B70D4F2002B02EA /* Build configuration list for PBXProject "network" */;
+			buildConfigurationList = 552AAA5C1B70D4F2002B02EA /* Build configuration list for PBXProject "curl-networking" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -223,8 +211,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				552AAA601B70D4F2002B02EA /* network */,
-				552AAA6B1B70D4F2002B02EA /* networkTests */,
+				552AAA601B70D4F2002B02EA /* curl-networking */,
+				552AAA6B1B70D4F2002B02EA /* curl-networkingTests */,
 			);
 		};
 /* End PBXProject section */
@@ -244,11 +232,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				552AAA871B70D542002B02EA /* tconnection_operation.cpp in Sources */,
-				552AAA8A1B70D542002B02EA /* tresponse.cpp in Sources */,
-				552AAA881B70D542002B02EA /* tconnection.cpp in Sources */,
-				552AAA891B70D542002B02EA /* trequest.cpp in Sources */,
-				552AAA861B70D542002B02EA /* tconnection_operation_queue.cpp in Sources */,
+				552AAB751B71ED71002B02EA /* tconnection_operation_queue.cpp in Sources */,
+				552AAB771B71ED71002B02EA /* tresponse.cpp in Sources */,
+				552AAB741B71ED71002B02EA /* tconnection_operation.cpp in Sources */,
+				552AAB761B71ED71002B02EA /* trequest.cpp in Sources */,
+				552AAB731B71ED71002B02EA /* tconnection.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				552AAA951B70D5A6002B02EA /* networktest.mm in Sources */,
+				552AAB831B71EEDC002B02EA /* networktest.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +253,7 @@
 /* Begin PBXTargetDependency section */
 		552AAA6F1B70D4F2002B02EA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 552AAA601B70D4F2002B02EA /* network */;
+			target = 552AAA601B70D4F2002B02EA /* curl-networking */;
 			targetProxy = 552AAA6E1B70D4F2002B02EA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -353,7 +341,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "curl-networking";
 				SKIP_INSTALL = YES;
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../Dispatch-Lite/dispatch-lite/** $(SRCROOT)/../Curl/curl $(SRCROOT)/../Libevent/include";
 			};
@@ -363,7 +351,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "curl-networking";
 				SKIP_INSTALL = YES;
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../Dispatch-Lite/dispatch-lite/** $(SRCROOT)/../Curl/curl $(SRCROOT)/../Libevent/include";
 			};
@@ -388,8 +376,11 @@
 					"/Users/jasenhuang/workspace/mail/mail/Utils/Curl/build/Debug-iphoneos",
 					"/Users/jasenhuang/workspace/mail/mail/Utils/dispatch-lite/build/Debug-iphoneos",
 					/Users/jasenhuang/workspace/mail/mail/Utils/Libevent/lib,
+					"/Users/jasenhuang/workspace/demo/Network/CURL/build/Debug-iphoneos",
+					"/Users/jasenhuang/workspace/demo/Network/Dispatch-Lite/build/Debug-iphoneos",
+					/Users/jasenhuang/workspace/demo/Network/Libevent/lib,
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "curl-networkingTests";
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../Dispatch-Lite/dispatch-lite/** $(SRCROOT)/../Curl/curl $(SRCROOT)/../Libevent/include";
 			};
 			name = Debug;
@@ -409,8 +400,11 @@
 					"/Users/jasenhuang/workspace/mail/mail/Utils/Curl/build/Debug-iphoneos",
 					"/Users/jasenhuang/workspace/mail/mail/Utils/dispatch-lite/build/Debug-iphoneos",
 					/Users/jasenhuang/workspace/mail/mail/Utils/Libevent/lib,
+					"/Users/jasenhuang/workspace/demo/Network/CURL/build/Debug-iphoneos",
+					"/Users/jasenhuang/workspace/demo/Network/Dispatch-Lite/build/Debug-iphoneos",
+					/Users/jasenhuang/workspace/demo/Network/Libevent/lib,
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "curl-networkingTests";
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../Dispatch-Lite/dispatch-lite/** $(SRCROOT)/../Curl/curl $(SRCROOT)/../Libevent/include";
 			};
 			name = Release;
@@ -418,7 +412,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		552AAA5C1B70D4F2002B02EA /* Build configuration list for PBXProject "network" */ = {
+		552AAA5C1B70D4F2002B02EA /* Build configuration list for PBXProject "curl-networking" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				552AAA731B70D4F2002B02EA /* Debug */,
@@ -427,7 +421,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		552AAA751B70D4F2002B02EA /* Build configuration list for PBXNativeTarget "network" */ = {
+		552AAA751B70D4F2002B02EA /* Build configuration list for PBXNativeTarget "curl-networking" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				552AAA761B70D4F2002B02EA /* Debug */,
@@ -436,7 +430,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		552AAA781B70D4F2002B02EA /* Build configuration list for PBXNativeTarget "networkTests" */ = {
+		552AAA781B70D4F2002B02EA /* Build configuration list for PBXNativeTarget "curl-networkingTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				552AAA791B70D4F2002B02EA /* Debug */,
