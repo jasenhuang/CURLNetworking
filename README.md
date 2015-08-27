@@ -7,12 +7,13 @@ c++ http network library base on curl
 
 3：callback by c++11 lamda function
 
-4: wrapper of curl
+4：wrapper of curl
 
 Usage:
 
 		std::shared_ptr<Request> request = std::make_shared<Request>();
         request->SetURL("http://www.qq.com");
+        
         std::shared_ptr<ConnectionOperation> oper = std::make_shared<ConnectionOperation>(request);
         
         oper->SetCompletionCallback([=](std::shared_ptr<ConnectionOperation> operation, std::shared_ptr<Response> response){

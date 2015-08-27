@@ -105,7 +105,14 @@ void ConnectionRunner::Run(Connection* conn)
 #ifndef USE_EVENT
     bool start = !mapping_.size();
 #endif
-    mapping_.insert(std::make_pair(conn->handler_, conn));
+    
+    if (mapping_.find(conn->handler_) != mapping_.end()) {
+        if (mapping_[conn->handler_]) assert(0);
+        else mapping_[conn->handler_] = conn;
+    }else{
+        mapping_.insert(std::make_pair(conn->handler_, conn));
+    }
+    
     curl_multi_add_handle(m_, conn->handler_);
 #ifndef USE_EVENT
     if (start) Schedule();
