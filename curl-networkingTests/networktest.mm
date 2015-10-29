@@ -8,9 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
-#include "tconnection_operation_queue.h"
-#include "tconnection_operation.h"
-#include "tdispatch.h"
+#import "CURLNetworking.h"
 
 using namespace Network;
 
