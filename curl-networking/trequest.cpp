@@ -1,6 +1,6 @@
 //
 //  trequest.cpp
-//  mail
+//  curl_networking
 //
 //  Created by jasenhuang on 15/7/29.
 //  Copyright (c) 2015年 tencent. All rights reserved.

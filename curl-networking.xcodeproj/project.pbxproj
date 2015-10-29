@@ -13,11 +13,18 @@
 		552AAB751B71ED71002B02EA /* tconnection_operation_queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 552AAB6A1B71ED71002B02EA /* tconnection_operation_queue.cpp */; };
 		552AAB761B71ED71002B02EA /* trequest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 552AAB6C1B71ED71002B02EA /* trequest.cpp */; };
 		552AAB771B71ED71002B02EA /* tresponse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 552AAB6E1B71ED71002B02EA /* tresponse.cpp */; };
-		552AAB7B1B71EDB8002B02EA /* libcurl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 552AAB791B71EDB8002B02EA /* libcurl.a */; };
-		552AAB7C1B71EDB8002B02EA /* libdispatch-lite.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 552AAB7A1B71EDB8002B02EA /* libdispatch-lite.a */; };
-		552AAB7E1B71EDC2002B02EA /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 552AAB7D1B71EDC2002B02EA /* libz.dylib */; };
-		552AAB801B71EDD0002B02EA /* libevent.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 552AAB7F1B71EDD0002B02EA /* libevent.a */; };
 		552AAB831B71EEDC002B02EA /* networktest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 552AAB821B71EEDC002B02EA /* networktest.mm */; };
+		55338D451BE206FE002E0A8D /* tlazy_instance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55338D321BE206FE002E0A8D /* tlazy_instance.cpp */; };
+		55338D461BE206FE002E0A8D /* tmessage_loop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55338D341BE206FE002E0A8D /* tmessage_loop.cpp */; };
+		55338D471BE206FE002E0A8D /* tmessage_loop_libevent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55338D361BE206FE002E0A8D /* tmessage_loop_libevent.cpp */; };
+		55338D481BE206FE002E0A8D /* tmessage_pump_default.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55338D391BE206FE002E0A8D /* tmessage_pump_default.cpp */; };
+		55338D491BE206FE002E0A8D /* trun_loop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55338D3B1BE206FE002E0A8D /* trun_loop.cpp */; };
+		55338D4A1BE206FE002E0A8D /* tdispatch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55338D3E1BE206FE002E0A8D /* tdispatch.cpp */; };
+		55338D4B1BE206FE002E0A8D /* tthread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55338D401BE206FE002E0A8D /* tthread.cpp */; };
+		55338D4C1BE206FE002E0A8D /* ttime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55338D431BE206FE002E0A8D /* ttime.cpp */; };
+		55338D501BE20818002E0A8D /* libcurl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55338D4E1BE20818002E0A8D /* libcurl.a */; };
+		55338D511BE20818002E0A8D /* libevent.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55338D4F1BE20818002E0A8D /* libevent.a */; };
+		55338D531BE20824002E0A8D /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 55338D521BE20824002E0A8D /* libz.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,11 +64,29 @@
 		552AAB6E1B71ED71002B02EA /* tresponse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tresponse.cpp; sourceTree = "<group>"; };
 		552AAB6F1B71ED71002B02EA /* tresponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tresponse.h; sourceTree = "<group>"; };
 		552AAB711B71ED71002B02EA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		552AAB791B71EDB8002B02EA /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcurl.a; path = "../../CURL/build/Debug-iphoneos/libcurl.a"; sourceTree = "<group>"; };
-		552AAB7A1B71EDB8002B02EA /* libdispatch-lite.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libdispatch-lite.a"; path = "../../Dispatch-Lite/build/Debug-iphoneos/libdispatch-lite.a"; sourceTree = "<group>"; };
-		552AAB7D1B71EDC2002B02EA /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
-		552AAB7F1B71EDD0002B02EA /* libevent.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libevent.a; path = ../../Libevent/lib/libevent.a; sourceTree = "<group>"; };
 		552AAB821B71EEDC002B02EA /* networktest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = networktest.mm; sourceTree = "<group>"; };
+		55338D2F1BE206FE002E0A8D /* tbasictypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tbasictypes.h; sourceTree = "<group>"; };
+		55338D301BE206FE002E0A8D /* tlog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tlog.h; sourceTree = "<group>"; };
+		55338D321BE206FE002E0A8D /* tlazy_instance.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tlazy_instance.cpp; sourceTree = "<group>"; };
+		55338D331BE206FE002E0A8D /* tlazy_instance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tlazy_instance.h; sourceTree = "<group>"; };
+		55338D341BE206FE002E0A8D /* tmessage_loop.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tmessage_loop.cpp; sourceTree = "<group>"; };
+		55338D351BE206FE002E0A8D /* tmessage_loop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tmessage_loop.h; sourceTree = "<group>"; };
+		55338D361BE206FE002E0A8D /* tmessage_loop_libevent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tmessage_loop_libevent.cpp; sourceTree = "<group>"; };
+		55338D371BE206FE002E0A8D /* tmessage_loop_libevent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tmessage_loop_libevent.h; sourceTree = "<group>"; };
+		55338D381BE206FE002E0A8D /* tmessage_pump.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tmessage_pump.h; sourceTree = "<group>"; };
+		55338D391BE206FE002E0A8D /* tmessage_pump_default.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tmessage_pump_default.cpp; sourceTree = "<group>"; };
+		55338D3A1BE206FE002E0A8D /* tmessage_pump_default.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tmessage_pump_default.h; sourceTree = "<group>"; };
+		55338D3B1BE206FE002E0A8D /* trun_loop.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = trun_loop.cpp; sourceTree = "<group>"; };
+		55338D3C1BE206FE002E0A8D /* trun_loop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = trun_loop.h; sourceTree = "<group>"; };
+		55338D3E1BE206FE002E0A8D /* tdispatch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tdispatch.cpp; sourceTree = "<group>"; };
+		55338D3F1BE206FE002E0A8D /* tdispatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tdispatch.h; sourceTree = "<group>"; };
+		55338D401BE206FE002E0A8D /* tthread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tthread.cpp; sourceTree = "<group>"; };
+		55338D411BE206FE002E0A8D /* tthread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tthread.h; sourceTree = "<group>"; };
+		55338D431BE206FE002E0A8D /* ttime.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ttime.cpp; sourceTree = "<group>"; };
+		55338D441BE206FE002E0A8D /* ttime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ttime.h; sourceTree = "<group>"; };
+		55338D4E1BE20818002E0A8D /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcurl.a; path = Frameworks/libs/libcurl.a; sourceTree = "<group>"; };
+		55338D4F1BE20818002E0A8D /* libevent.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libevent.a; path = Frameworks/libs/libevent.a; sourceTree = "<group>"; };
+		55338D521BE20824002E0A8D /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +94,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55338D501BE20818002E0A8D /* libcurl.a in Frameworks */,
+				55338D511BE20818002E0A8D /* libevent.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,10 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				552AAB801B71EDD0002B02EA /* libevent.a in Frameworks */,
-				552AAB7E1B71EDC2002B02EA /* libz.dylib in Frameworks */,
-				552AAB7B1B71EDB8002B02EA /* libcurl.a in Frameworks */,
-				552AAB7C1B71EDB8002B02EA /* libdispatch-lite.a in Frameworks */,
+				55338D531BE20824002E0A8D /* libz.tbd in Frameworks */,
 				552AAA6D1B70D4F2002B02EA /* libcurl-networking.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -90,6 +114,8 @@
 		552AAA581B70D4F2002B02EA = {
 			isa = PBXGroup;
 			children = (
+				55338D541BE20852002E0A8D /* Frameworks */,
+				55338D2D1BE206FE002E0A8D /* dispatch-lite */,
 				552AAB641B71ED71002B02EA /* curl-networking */,
 				552AAB701B71ED71002B02EA /* curl-networkingTests */,
 				552AAA621B70D4F2002B02EA /* Products */,
@@ -127,10 +153,6 @@
 			isa = PBXGroup;
 			children = (
 				552AAB821B71EEDC002B02EA /* networktest.mm */,
-				552AAB7F1B71EDD0002B02EA /* libevent.a */,
-				552AAB7D1B71EDC2002B02EA /* libz.dylib */,
-				552AAB791B71EDB8002B02EA /* libcurl.a */,
-				552AAB7A1B71EDB8002B02EA /* libdispatch-lite.a */,
 				552AAB811B71EE62002B02EA /* Supporting Files */,
 			);
 			path = "curl-networkingTests";
@@ -142,6 +164,74 @@
 				552AAB711B71ED71002B02EA /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		55338D2D1BE206FE002E0A8D /* dispatch-lite */ = {
+			isa = PBXGroup;
+			children = (
+				55338D2E1BE206FE002E0A8D /* Base */,
+				55338D311BE206FE002E0A8D /* MessageLoop */,
+				55338D3D1BE206FE002E0A8D /* Thread */,
+				55338D421BE206FE002E0A8D /* Time */,
+			);
+			path = "dispatch-lite";
+			sourceTree = "<group>";
+		};
+		55338D2E1BE206FE002E0A8D /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				55338D2F1BE206FE002E0A8D /* tbasictypes.h */,
+				55338D301BE206FE002E0A8D /* tlog.h */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		55338D311BE206FE002E0A8D /* MessageLoop */ = {
+			isa = PBXGroup;
+			children = (
+				55338D321BE206FE002E0A8D /* tlazy_instance.cpp */,
+				55338D331BE206FE002E0A8D /* tlazy_instance.h */,
+				55338D341BE206FE002E0A8D /* tmessage_loop.cpp */,
+				55338D351BE206FE002E0A8D /* tmessage_loop.h */,
+				55338D361BE206FE002E0A8D /* tmessage_loop_libevent.cpp */,
+				55338D371BE206FE002E0A8D /* tmessage_loop_libevent.h */,
+				55338D381BE206FE002E0A8D /* tmessage_pump.h */,
+				55338D391BE206FE002E0A8D /* tmessage_pump_default.cpp */,
+				55338D3A1BE206FE002E0A8D /* tmessage_pump_default.h */,
+				55338D3B1BE206FE002E0A8D /* trun_loop.cpp */,
+				55338D3C1BE206FE002E0A8D /* trun_loop.h */,
+			);
+			path = MessageLoop;
+			sourceTree = "<group>";
+		};
+		55338D3D1BE206FE002E0A8D /* Thread */ = {
+			isa = PBXGroup;
+			children = (
+				55338D3E1BE206FE002E0A8D /* tdispatch.cpp */,
+				55338D3F1BE206FE002E0A8D /* tdispatch.h */,
+				55338D401BE206FE002E0A8D /* tthread.cpp */,
+				55338D411BE206FE002E0A8D /* tthread.h */,
+			);
+			path = Thread;
+			sourceTree = "<group>";
+		};
+		55338D421BE206FE002E0A8D /* Time */ = {
+			isa = PBXGroup;
+			children = (
+				55338D431BE206FE002E0A8D /* ttime.cpp */,
+				55338D441BE206FE002E0A8D /* ttime.h */,
+			);
+			path = Time;
+			sourceTree = "<group>";
+		};
+		55338D541BE20852002E0A8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55338D521BE20824002E0A8D /* libz.tbd */,
+				55338D4E1BE20818002E0A8D /* libcurl.a */,
+				55338D4F1BE20818002E0A8D /* libevent.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,7 +278,7 @@
 		552AAA591B70D4F2002B02EA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = tencent;
 				TargetAttributes = {
 					552AAA601B70D4F2002B02EA = {
@@ -232,10 +322,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55338D491BE206FE002E0A8D /* trun_loop.cpp in Sources */,
 				552AAB751B71ED71002B02EA /* tconnection_operation_queue.cpp in Sources */,
+				55338D4A1BE206FE002E0A8D /* tdispatch.cpp in Sources */,
+				55338D451BE206FE002E0A8D /* tlazy_instance.cpp in Sources */,
 				552AAB771B71ED71002B02EA /* tresponse.cpp in Sources */,
 				552AAB741B71ED71002B02EA /* tconnection_operation.cpp in Sources */,
+				55338D4C1BE206FE002E0A8D /* ttime.cpp in Sources */,
 				552AAB761B71ED71002B02EA /* trequest.cpp in Sources */,
+				55338D481BE206FE002E0A8D /* tmessage_pump_default.cpp in Sources */,
+				55338D4B1BE206FE002E0A8D /* tthread.cpp in Sources */,
+				55338D471BE206FE002E0A8D /* tmessage_loop_libevent.cpp in Sources */,
+				55338D461BE206FE002E0A8D /* tmessage_loop.cpp in Sources */,
 				552AAB731B71ED71002B02EA /* tconnection.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,6 +377,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -340,20 +439,30 @@
 		552AAA761B70D4F2002B02EA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				OTHER_LDFLAGS = "-ObjC";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Frameworks/include/libevent";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks/libs",
+				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "curl-networking";
 				SKIP_INSTALL = YES;
-				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../Dispatch-Lite/dispatch-lite/** $(SRCROOT)/../Curl/curl $(SRCROOT)/../Libevent/include";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/Frameworks/include/curl $(SRCROOT)/Frameworks/include/libevent";
 			};
 			name = Debug;
 		};
 		552AAA771B70D4F2002B02EA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				OTHER_LDFLAGS = "-ObjC";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Frameworks/include/libevent";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks/libs",
+				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "curl-networking";
 				SKIP_INSTALL = YES;
-				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../Dispatch-Lite/dispatch-lite/** $(SRCROOT)/../Curl/curl $(SRCROOT)/../Libevent/include";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/Frameworks/include/curl $(SRCROOT)/Frameworks/include/libevent";
 			};
 			name = Release;
 		};
@@ -369,19 +478,12 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = networkTests/Info.plist;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Frameworks/include/libevent";
+				INFOPLIST_FILE = "";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"/Users/jasenhuang/workspace/mail/mail/Utils/Curl/build/Debug-iphoneos",
-					"/Users/jasenhuang/workspace/mail/mail/Utils/dispatch-lite/build/Debug-iphoneos",
-					/Users/jasenhuang/workspace/mail/mail/Utils/Libevent/lib,
-					"/Users/jasenhuang/workspace/demo/Network/CURL/build/Debug-iphoneos",
-					"/Users/jasenhuang/workspace/demo/Network/Dispatch-Lite/build/Debug-iphoneos",
-					/Users/jasenhuang/workspace/demo/Network/Libevent/lib,
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = "curl-networkingTests";
-				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../Dispatch-Lite/dispatch-lite/** $(SRCROOT)/../Curl/curl $(SRCROOT)/../Libevent/include";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/Frameworks/include/curl $(SRCROOT)/Frameworks/include/libevent";
 			};
 			name = Debug;
 		};
@@ -393,19 +495,12 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = networkTests/Info.plist;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Frameworks/include/libevent";
+				INFOPLIST_FILE = "";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"/Users/jasenhuang/workspace/mail/mail/Utils/Curl/build/Debug-iphoneos",
-					"/Users/jasenhuang/workspace/mail/mail/Utils/dispatch-lite/build/Debug-iphoneos",
-					/Users/jasenhuang/workspace/mail/mail/Utils/Libevent/lib,
-					"/Users/jasenhuang/workspace/demo/Network/CURL/build/Debug-iphoneos",
-					"/Users/jasenhuang/workspace/demo/Network/Dispatch-Lite/build/Debug-iphoneos",
-					/Users/jasenhuang/workspace/demo/Network/Libevent/lib,
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = "curl-networkingTests";
-				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../Dispatch-Lite/dispatch-lite/** $(SRCROOT)/../Curl/curl $(SRCROOT)/../Libevent/include";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/Frameworks/include/curl $(SRCROOT)/Frameworks/include/libevent";
 			};
 			name = Release;
 		};

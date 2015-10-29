@@ -1,6 +1,8 @@
 # network
 c++ http network library base on curl
 
+pod 'CURL-Networking', '~> 0.0.1'
+
 1：totally asynchronous
 
 2：easy api like AFNetworking(ObjC networking framework)

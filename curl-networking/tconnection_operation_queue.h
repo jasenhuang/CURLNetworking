@@ -1,13 +1,13 @@
 //
 //  tconnection_operation_queue.h
-//  mail
+//  curl_networking
 //
 //  Created by jasenhuang on 15/7/24.
 //  Copyright (c) 2015年 tencent. All rights reserved.
 //
 
-#ifndef __mail__tconnection_operation_queue__
-#define __mail__tconnection_operation_queue__
+#ifndef __curl_networking__tconnection_operation_queue__
+#define __curl_networking__tconnection_operation_queue__
 
 #include <iostream>
 #include <queue>
@@ -57,4 +57,4 @@ private:
 };
 #endif
 
-#endif /* defined(__mail__tconnection_operation_queue__) */
+#endif /* defined(__curl_networking__tconnection_operation_queue__) */

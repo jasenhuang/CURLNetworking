@@ -1,6 +1,6 @@
 //
 //  tconnection.cpp
-//  mail
+//  curl_networking
 //
 //  Created by jasenhuang on 15/7/24.
 //  Copyright (c) 2015年 tencent. All rights reserved.
@@ -221,8 +221,7 @@ int ConnectionRunner::TimerCallback(CURLM *multi,    /* multi handle */
     //TLOGD("TimerCallback:[%ld]", timeout_ms);
     ConnectionRunner* runner = reinterpret_cast<ConnectionRunner*>(userp);
     if (timeout_ms > 0){
-        timeout_ms = timeout_ms > 2000? 2000: timeout_ms;
-        dispatch_after(timeout_ms, [=]{
+        dispatch_current_after(timeout_ms, [=]{
             runner->StepSocket(CURL_SOCKET_TIMEOUT, CURL_POLL_NONE, NULL);
         });
     }else{

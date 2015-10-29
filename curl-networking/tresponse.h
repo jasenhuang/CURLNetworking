@@ -1,13 +1,13 @@
 //
 //  tresponse.h
-//  mail
+//  curl_networking
 //
 //  Created by jasenhuang on 15/7/29.
 //  Copyright (c) 2015年 tencent. All rights reserved.
 //
 
-#ifndef __mail__tresponse__
-#define __mail__tresponse__
+#ifndef __curl_networking__tresponse__
+#define __curl_networking__tresponse__
 
 #include <iostream>
 #include <vector>
@@ -59,4 +59,4 @@ public:
 };
 #endif
 
-#endif /* defined(__mail__tresponse__) */
+#endif /* defined(__curl_networking__tresponse__) */

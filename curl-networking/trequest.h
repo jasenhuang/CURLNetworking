@@ -1,13 +1,13 @@
 //
 //  trequest.h
-//  mail
+//  curl_networking
 //
 //  Created by jasenhuang on 15/7/29.
 //  Copyright (c) 2015年 tencent. All rights reserved.
 //
 
-#ifndef __mail__trequest__
-#define __mail__trequest__
+#ifndef __curl_networking__trequest__
+#define __curl_networking__trequest__
 
 #include <iostream>
 #include <vector>
@@ -69,4 +69,4 @@ private:
 };
 #endif
 
-#endif /* defined(__mail__trequest__) */
+#endif /* defined(__curl_networking__trequest__) */
