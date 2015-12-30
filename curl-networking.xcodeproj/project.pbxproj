@@ -69,6 +69,7 @@
 		55338DC71BE20D72002E0A8D /* typecheck-gcc.h in Headers */ = {isa = PBXBuildFile; fileRef = 55338D9E1BE20D49002E0A8D /* typecheck-gcc.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		55338DC91BE20DD9002E0A8D /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55338DC81BE20DD9002E0A8D /* CoreFoundation.framework */; };
 		55338DCB1BE20DE0002E0A8D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55338DCA1BE20DE0002E0A8D /* Security.framework */; };
+		557A51F41C33B3DF00D5B6B6 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55338DCA1BE20DE0002E0A8D /* Security.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -190,6 +191,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				557A51F41C33B3DF00D5B6B6 /* Security.framework in Frameworks */,
 				55338D531BE20824002E0A8D /* libz.tbd in Frameworks */,
 				552AAA6D1B70D4F2002B02EA /* libcurl-networking.a in Frameworks */,
 			);
@@ -860,6 +862,7 @@
 				55338D601BE20C4E002E0A8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
