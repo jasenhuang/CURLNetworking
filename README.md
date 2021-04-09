@@ -42,3 +42,6 @@ Denpendies:
 3：libevent(optional by macro USE_EVENT)
 
 4：c++11 and above
+
+TODO:
+config cmake file
